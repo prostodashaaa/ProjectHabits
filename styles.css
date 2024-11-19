@@ -273,6 +273,8 @@ input:focus {
   background: #dcdaff;
 }
 
+/* POPUP */
+
 .cover {
   background: rgba(0, 0, 0, 0.25);
 
@@ -393,6 +395,10 @@ h2 {
 }
 
 @media (max-width: 640px) {
+  .panel {
+    padding: 20px;
+  }
+
   .progress {
     display: flex;
     flex-direction: column;
@@ -411,6 +417,7 @@ h2 {
 
   .habbit__day {
     padding: 20px 10px;
+    min-width: max-content;
 
     align-self: stretch;
     align-content: center;
@@ -424,5 +431,9 @@ h2 {
   .input__icon {
     top: 20px;
     left: 20px;
+  }
+
+  .popup {
+    width: 80%;
   }
 }
